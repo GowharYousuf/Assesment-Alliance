@@ -1,0 +1,142 @@
+
+.main{
+  background-color:  #eff1f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.custom-navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.custom-margin {
+  margin-top: 3rem; 
+}
+
+@media (min-width: 992px) { 
+  .custom-margin {
+    margin-top: 0;
+  }
+}
+
+
+.custom-nav-link {
+  font-weight: bold; 
+  color: #333; 
+  transition: color 0.3s ease, opacity 0.3s ease; 
+}
+
+.custom-nav-link:hover {
+  color:#192339;
+  opacity: 0.8; 
+}
+
+.custom-apply-btn {
+  transition: transform 0.3s ease, background-color 0.3s ease; 
+}
+
+.custom-apply-btn:hover {
+  background-color: #8b0000; 
+  transform: scale(1.05); 
+}
+
+  .insight-box {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .insight-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+  }
+
+.carouse-alliance{
+  max-height: 300px;
+}
+.border{
+  border-radius: 15px;
+  background-color:#192339;
+  color: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.banner-row{
+  border-radius: 15px;
+  padding: 3px;
+  color: #2c2c2c;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.curriculum{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 1px solid rgb(215, 205, 205);
+  border-radius: 10px;
+}
+.curriculum-box {
+  height: 100%;
+  min-height: 300px; 
+  background-color:#192339; 
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 10px; 
+}
+
+.curriculum .row {
+  gap: 1rem; 
+}
+
+ul {
+  list-style-type: disc; 
+  padding-left: 20px; 
+}
+
+h5 {
+  margin-bottom: 15px;
+}
+.faculty{
+  background: #192339;
+  border-radius: 12px;
+}
+.card-body-equal-height {
+  min-height: 150px;
+}
+.study-abroad {
+  background: #f9f9f9; /* Light background for contrast */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.study-abroad h3 {
+  font-weight: bold;
+  color: #333;
+}
+
+.study-abroad p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.study-abroad-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Ensures the image stays within bounds */
+  border-radius: 8px;
+}
+
+.study-abroad-image-container img {
+  max-width: 100%; 
+  height: auto; 
+  border-radius: 8px; 
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.study-abroad-image-container img:hover {
+  transform: scale(1.05); 
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); 
+}
+.boxes-middle{
+  min-height: 300px;
+}
+
+
